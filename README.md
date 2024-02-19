@@ -1,5 +1,6 @@
 # disable-js-log
 
+A simple utility to disable console logs in JavaScript applicaiton
 
 #### Install
 
