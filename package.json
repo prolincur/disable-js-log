@@ -1,6 +1,6 @@
 {
   "name": "disable-js-log",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "module": "src/index.jsx",
   "main": "dist/lib.js",
   "exports": {
@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/prolincur/disable-js-log/issues"
   },
-  "homepage": "{home_page}",
+  "homepage": "https://github.com/prolincur/disable-js-log",
   "author": "Prolincur Technologies <https://www.prolincur.com>",
   "keywords": [
     "js",
