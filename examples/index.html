@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <title>disable-js-log</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <script type="module">
+      import disableThese from './disable-js-log/dist/lib.js'
+
+      // Disable log and debug
+      disableThese('log', 'debug')
+      console.log('Log will not be visible on console')
+      console.debug('Debug will not be visible on console')
+
+      console.error('Error will be visible, but not log/debug')
+    </script>
+    <p>
+      Check debug console
+    </p>
+  </body>
+</html>
