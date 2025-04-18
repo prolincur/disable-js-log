@@ -3,7 +3,7 @@
  * All Rights Reserved.
  */
 
-const ALL = ['log', 'debug', 'warn', 'error', 'info']
+const ALL = ['log', 'debug', 'warn', 'error', 'info', 'assert']
 
 const disableConsoleLogger = (disabledIn = []) => {
   const disableThese = Array.isArray(disabledIn)
