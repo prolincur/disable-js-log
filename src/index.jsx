@@ -15,7 +15,7 @@ const disableConsoleLogger = (disabledIn = []) => {
   }
   ALL.forEach((item) => {
     if (disableThese.includes(item)) {
-        myConsole[item] = () => {}
+      myConsole[item] = () => {}
     } else {
       myConsole[item] = defaultConsole[item]
     }
