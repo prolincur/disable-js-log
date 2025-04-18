@@ -10,7 +10,9 @@ const disableConsoleLogger = (disabledIn = []) => {
     ? disabledIn
     : disabledIn?.split(',').map((item) => item.trim()) || []
   const defaultConsole = console || window.console
-  const myConsole = {}
+  const myConsole = {
+    ...window.console,
+  }
   ALL.forEach((item) => {
     if (disableThese.includes(item)) {
         myConsole[item] = () => {}
